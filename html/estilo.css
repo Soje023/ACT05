@@ -1,0 +1,177 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+  background-image: url("img/secret.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.main{
+	margin: auto;
+	text-align: center;
+	width: 1000px
+}
+
+.menu{
+	margin-top: 1%;
+	margin-left: 30%;
+}
+
+.menu li{
+	padding-bottom: 0px;
+}
+
+nav a{
+      text-decoration:none;
+      color:inherit;
+      font-size:14px;
+      }
+
+nav li{
+      display:inline-block;
+      width:150px;
+      height:30px;
+      padding:5px 10px;
+      background-color:#000;
+      border:1px solid #000;
+      text-align:center;
+      color:#fff;
+      position:relative;
+}
+
+nav li:hover{
+      background-color:#fff;
+      color:#000;
+      }
+
+nav li>ul{
+      display:none;
+      }
+
+nav li:hover>ul{
+      display:block;
+      position:absolute;
+      top:30px;
+      left:0px;
+}
+
+.mensaje{
+  margin-top: 1px;
+	margin-left: 15px;
+	font-size: 16px;
+}
+
+#secret{
+	width: 800px;
+	min-height: 700px;
+	background: rgba(171,159,159);
+	margin: 40px auto 50px;
+	box-shadow: 0px 0px 15px black;
+	padding: 30px;
+}
+
+#secret h1{
+		text-align: center;
+}
+
+.form{
+	text-align: center;
+	padding-top: 50px;
+	letter-spacing: -1px;
+}
+
+.nom{
+	margin-left: 80px;
+	border: none;
+	font-size: 16px;
+	width: 200px;
+	height: 26px;
+}
+
+.sexo{
+	margin-top: -21px;
+	margin-left: 195px;
+	width: 90px;
+	height: 28px;
+	border: none;
+}
+
+.categoria{
+	margin-top: -28px;
+	margin-left: 255px;
+	width: 90px;
+	height: 28px;
+	border: none;
+}
+
+.desc{
+	margin-top: 10px;
+	margin-left: 80px;
+	width: 472px;
+  height: 144px;
+	word-break: keep-all;
+	font-size: 16px;
+	border-radius: 4px;
+	border: none;
+	resize: none;
+}
+
+.button{
+	margin-top: 40px;
+	margin-left: 5px;
+  width: 155px;
+  height: 40px;
+  background: #fac525;
+  border: 1px solid #666;
+  font: 600 16px/1 Lucida Sans, Verdana, sans-serif;
+  color: black;
+  border-radius: 4px;
+	cursor: pointer;
+}
+
+.button:hover{
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.back{
+  width: 155px;
+  height: 40px;
+  border: 1px solid #666;
+  font: 600 16px/1 Lucida Sans, Verdana, sans-serif;
+  color: black;
+  border-radius: 4px;
+	cursor: pointer;
+	margin-top: 150px;
+	margin-left: 5px;
+}
+
+.back:hover{
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#contenedor{
+	width: 400px;
+	height: 300px;
+	background: #808080;
+	box-shadow: 0px 0px 15px black;
+	padding: 30px;
+	margin-top: 3%;
+}
+
+.formulario{
+	margin-left: 10px;
+	text-align: left;
+	padding-top: 20px;
+	letter-spacing: -1px;
+}
+
+.dato{
+	margin-top: -33px;
+	margin-left: 85px;
+	color: white;
+}
+
+.secret{
+	color: white;
+}
